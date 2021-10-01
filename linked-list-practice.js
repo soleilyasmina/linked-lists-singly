@@ -2,33 +2,30 @@ class Node {
   constructor(value) {
     
   }
-  //Define a class Node and pass it a value argument in its contructor. Set the the *value* property of the object to it and add an property *next* set to null.
-  // In JavaScript, the thing called *this* is the object that "owns" the code. The value of *this* , when used in an object, is the object itself. In a constructor function this does not have a value. It is a substitute for the new object.
+  
 }
 
 
 
 class SinglyLinkedList{
   constructor() {
-    // We have to define a pointer to the head, tail and set the length of the singly linked list starting at 0
     
   }
 
-  // define a push() that accept a parameter called value. Create a new node using the value passed to the function. If there is no head property on the list, set the head and tail to be newly created node. Otherwise set the next property on the tail to be the new node and set the tail property on the list to be the newly created node. Increment the length by one.
   push(value) {
     
   }
+  
+  shift() {
+   
+  } 
 
   //Define a method pop() that doesn't take any aguments. If there are no nodes in the list, return undefined. Loop through the list until you reach the tail. Set the next property of the 2nd to last node to be null. Set the tail to be the 2nd to last node. Decrement the length of the list by 1. Return the value of the removed node. 
   pop() {
     
   }
 
-  //If there are not nodes, return undefined. Store he current head property in a variable. Set the head property to be the current head's next property. Decrement the length by 1. Return the value of the removed node.
-  shift() {
-   
-  } 
-
+  
   // Create a method unshift() that accepts an argument *value*. Create a new node using the the value passed to the function. If there is no head property on the list, set the head and tail to be the newly created node. Otherwise set the newly created node's next property on the list. Set the head propery on the list to be that newly created node. Increment the length by 1. Return the linked list.
   unshift(value) {
     
